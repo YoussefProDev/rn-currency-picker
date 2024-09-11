@@ -1,7 +1,7 @@
 {
-  "name": "rn-currency-picker",
+  "name": "@youssefprodev/rn-currency-picker",
   "version": "0.1.0",
-  "description": "a currency picker",
+  "description": "rn-currency-picker is a versatile component for React Native designed to simplify currency selection in your mobile applications. It is engineered to be easily integrated into your React Native apps, providing a robust and flexible solution for currency selection.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -63,12 +63,13 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.0.2",
+    "@commitlint/config-conventional": "^19.5.0",
     "@evilmartians/lefthook": "^1.5.0",
     "@react-native/eslint-config": "^0.73.1",
-    "@release-it/conventional-changelog": "^5.0.0",
+    "@release-it/conventional-changelog": "^8.0.1",
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
+    "@types/react-native": "^0.72.8",
     "commitlint": "^17.0.2",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",
@@ -79,7 +80,7 @@
     "react": "18.2.0",
     "react-native": "0.74.5",
     "react-native-builder-bob": "^0.30.2",
-    "release-it": "^15.0.0",
+    "release-it": "^17.6.0",
     "typescript": "^5.2.2"
   },
   "resolutions": {
@@ -89,10 +90,6 @@
     "react": "*",
     "react-native": "*"
   },
-  "workspaces": [
-    "example"
-  ],
-  "packageManager": "yarn@3.6.1",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
@@ -181,5 +178,11 @@
   "create-react-native-library": {
     "type": "library",
     "version": "0.41.1"
+  },
+  "dependencies": {
+    "@shopify/flash-list": "^1.7.1",
+    "expo": "^51.0.32",
+    "fuse.js": "^7.0.0",
+    "react-native-status-bar-height": "^2.6.0"
   }
 }
