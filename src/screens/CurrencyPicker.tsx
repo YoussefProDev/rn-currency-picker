@@ -92,7 +92,12 @@ export const CurrencyPicker: FC<CurrencyPickerProps> = (props) => {
           {renderChildren ? (
             renderChildren
           ) : (
-            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+            <View
+              style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+              }}
+            >
               {showFlag && (
                 <CurrencyFlag
                   currency={code as Currency}

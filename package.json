@@ -136,7 +136,8 @@
           "trailingComma": "es5",
           "useTabs": false
         }
-      ]
+      ],
+      "no-inline-styles": 0
     }
   },
   "eslintIgnore": [
