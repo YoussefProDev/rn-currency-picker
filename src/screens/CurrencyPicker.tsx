@@ -147,10 +147,10 @@ export const CurrencyPicker: FC<CurrencyPickerProps> = (props) => {
       ) : null}
       <Modal visible={visible}>
         <DialogCurrency
-          onSelectItem={(data) => {
+          onSelectItem={(data: CurrencyData) => {
             onSelect(data);
           }}
-          setVisible={(value) => {
+          setVisible={(value: boolean) => {
             setVisible(value);
             onClose && onClose();
           }}

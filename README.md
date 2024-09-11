@@ -1,6 +1,6 @@
 # rn-currency-picker
 
-React native currency picker that works!
+React Native Currency Picker that Works with TypeScript!
 
 ## Installation
 
