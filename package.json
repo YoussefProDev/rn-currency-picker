@@ -37,7 +37,6 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace rn-currency-picker-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
