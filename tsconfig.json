@@ -2,7 +2,9 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@youssefprodev/rn-currency-picker": ["./src/index"]
+      "@youssefprodev/rn-currency-picker": [
+        "./lib/typescript/module/src/index.d.ts"
+      ]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

@@ -1,9 +1,9 @@
 {
   "name": "@youssefprodev/rn-currency-picker",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "rn-currency-picker is a versatile component for React Native designed to simplify currency selection in your mobile applications. It is engineered to be easily integrated into your React Native apps, providing a robust and flexible solution for currency selection.",
   "source": "./src/index.tsx",
-  "main": "./lib/commonjs/index.js",
+  "main": "./lib/module/index.js",
   "module": "./lib/module/index.js",
   "types": "./lib/typescript/module/src/index.d.ts",
   "exports": {
